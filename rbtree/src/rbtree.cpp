@@ -47,8 +47,7 @@ void RBTree::LeftRotate(Node* x) {
     y->left = x;
 }
 
-void RBTree::RightRotate(Node* x)
-{
+void RBTree::RightRotate(Node* x) {
     Node* y = x->left;
     x->left = y->right;
     if (y->right != nil_) {

@@ -6,4 +6,5 @@ int main() {
     rbtree.Put(34, "B");
     std::cout << rbtree.GetCount() << std::endl;
     std::cout << rbtree.Get(12);
+    rbtree.Clear();
 }

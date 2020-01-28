@@ -22,7 +22,7 @@ private:
 
     uint64_t count_;
 
-    void Clear();
+    void Clear(Node* pNode);
     void LeftRotate(Node* x);
     void RightRotate(Node* x);
     Node* FindPutNode(Node*& p, Node*& r, const int& v);
@@ -39,7 +39,7 @@ public:
     RBTree();
     virtual ~RBTree();
 
-    void Clear(Node* pNode);
+    void Clear();
     void Put(const int& key, const std::string& value);
     std::string Get(const int& key);
     void Remove(const int key);
