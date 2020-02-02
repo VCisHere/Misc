@@ -1,0 +1,8 @@
+﻿  receiver.cpp
+  sender.cpp
+  socketchat.cpp
+C:\Users\VC\source\repos\socketchat\src\receiver.cpp(75,10): warning C4101: “sendBuf”: 未引用的局部变量
+C:\Users\VC\source\repos\socketchat\src\socketchat.cpp(8,18): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+  正在生成代码...
+C:\Users\VC\source\repos\socketchat\src\socketchat.cpp(8,20): warning C4838: 从“int”转换到“SHORT”需要收缩转换
+  socketchat.vcxproj -> C:\Users\VC\source\repos\socketchat\Debug\socketchat.exe
