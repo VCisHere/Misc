@@ -8,5 +8,3 @@ Add bstree
 
 ## 2020.02.02
 Add socketchat
-
-<script> test </script>
